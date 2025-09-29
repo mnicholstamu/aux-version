@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "AUX Version Update",
+  "version": "1.0.1",
+
+  "description": "Developer Tool to update AUX Versions in the browser",
+
+  "icons": {
+    "32": "icons/tam.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.tamu.edu/*"],
+      "js": ["aux.js"]
+    }
+  ],
+  "host_permissions": ["*://*.tamu.edu/*"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{334e83b5-c92d-4db6-93c8-c2860d5d1140}",
+      "update_url": "https://aux.tamu.edu/ff/updates.json"
+    }
+  }
+}
