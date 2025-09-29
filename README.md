@@ -1,6 +1,9 @@
 # Aggue UX Firefox and Chrome version add-on
+
 This add-on will allow you to add in an AUX version number, @latest, or @next to any site using Aggie UX to see any new or previous Aggie UX changes. All sites using this add-on should be hosted on a `tamu.edu` domain.  
+
 ---
+
 ## Adding to Chrome
 1. Clone the repository
 2. Navigate to `chrome://extensions/`
