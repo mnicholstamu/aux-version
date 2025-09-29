@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AUX Version Update",
-  "version": "1.0.1",
+  "version": "1.0.0",
 
   "description": "Developer Tool to update AUX Versions in the browser",
 
