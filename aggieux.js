@@ -23,7 +23,7 @@ const paramValue = new URL(getAUXParams, window.location.origin);
 const val = paramValue.searchParams.get('aux');
 
 const isValidParam = val && (
-  /^v.{8}$/.test(val) ||  // Gets the version number ONLY if it's 8 characters long after the `v`
+  /^v.{5}$/.test(val) ||  // Gets the version number ONLY if it's 5 characters long after the `v`
   val === '@next' || // Gets the next version
   val === '@latest' // Gets the latest version
 );

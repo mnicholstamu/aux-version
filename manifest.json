@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.tamu.edu/*"],
-      "js": ["aux.js"]
+      "js": ["aggieux.js"]
     }
   ],
   "host_permissions": ["*://*.tamu.edu/*"],
